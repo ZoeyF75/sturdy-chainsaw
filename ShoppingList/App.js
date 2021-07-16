@@ -5,14 +5,14 @@ import Header from './components/Header';
 const App = () => {
   return (
     <View style={styles.container}>
-      <Header />
+      <Header title="Shopping List" />
     </View>
   );
 };
 
 const styles = StyleSheet.create({
 container: {
-  flex:1,
+  flex: 1,
   paddingTop: 60
 }
 });
